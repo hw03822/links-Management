@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: links
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/linksdb
+    username: root
+    password: gksgPdnjs12!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update #???: ??? ?? ??/????
+    show-sql: true # ??? SQL ??
+    properties:
+      hibernate:
+        format-sql: true # SQL ??? ??
